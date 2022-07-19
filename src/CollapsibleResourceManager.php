@@ -73,6 +73,9 @@ class CollapsibleResourceManager extends Tool
         ]);
     }
 
+    public function menu(Request $request): void
+    {
+    }
     private function parseNavigationResources(array $resources, $root = null): array
     {
 
