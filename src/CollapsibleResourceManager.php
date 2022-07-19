@@ -8,6 +8,7 @@ use Laravel\Nova\Http\Requests\NovaRequest;
 use Laravel\Nova\Nova;
 use Laravel\Nova\Tool;
 use Laravel\Nova\Tools\ResourceManager;
+use Illuminate\Http\Request;
 
 class CollapsibleResourceManager extends Tool
 {
